@@ -104,6 +104,7 @@ function App() {
         <GameBoard onSelectSquare={handleSelectSquare} board={gameBoard} />
 
       </div>
+      <button onClick={restartMatch}> Restart </button>
       <Log turns={gameTurns} />
     </main>
   )
