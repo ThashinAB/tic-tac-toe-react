@@ -349,3 +349,25 @@ ol {
     transform: scale(1);
   }
 }
+
+.restart-button {
+  display: block;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  background: none;
+  border: 2px solid rgba(40, 38, 23, 0.85);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s, color 0.2s;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.653);
+}
+
+.restart-button:hover {
+  background: #3f3b00;
+  color: #fcd256;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 187, 0, 0.8);
+  border: 2px solid #fcd256;
+
+}
